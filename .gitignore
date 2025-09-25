@@ -1,0 +1,43 @@
+build/
+.cache/
+
+# C++ build artifacts
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+*.lo
+
+# CMake build directories and files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Qt Creator
+*.pro.user
+*.qmake.stash
+*.qmake.cache
+
+# CLion
+.idea/
+
+# Other
+*.log
+*.tmp
+*.swp
+*.swo
+*.dSYM/
+*.DS_Store
+*.ipch
+*.pch
+
+# Test binaries
+tests/*.exe
+tests/*.out
+tests/*.o

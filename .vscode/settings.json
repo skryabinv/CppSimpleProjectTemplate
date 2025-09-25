@@ -1,0 +1,22 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "[c]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "[cmake]": {
+        "editor.defaultFormatter": "cheshirekow.cmake-format"
+    },
+    "clangd.arguments": [
+        "--enable-config",
+        "--compile-commands-dir=${workspaceFolder}/build"
+    ],
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmakeFormat.args": [
+        "--config-file",
+        "${workspaceFolder}/.cmake-format"
+    ]
+}
