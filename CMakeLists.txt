@@ -16,14 +16,7 @@ set(CMAKE_C_STANDARD_REQUIRED ON)
 # include(cmake/ClangTidy.cmake)
 include(cmake/CPM.cmake)
 
-CPMAddPackage(
-  NAME googletest URL
-  https://github.com/google/googletest/archive/refs/tags/v1.17.0.zip VERSION
-  1.17.0)
-
-# add_subdirectory(3rdparty/...)
-
-# add_subdirectory(3rdparty/...)
+CPMAddPackage(URI "gh:google/googletest@1.17.0")
 
 add_subdirectory(src)
 
