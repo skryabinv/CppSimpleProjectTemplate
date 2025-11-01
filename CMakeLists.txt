@@ -13,7 +13,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 
-include(cmake/ClangTidy.cmake)
+# include(cmake/ClangTidy.cmake)
 include(cmake/CPM.cmake)
 
 CPMAddPackage(

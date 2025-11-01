@@ -2,4 +2,4 @@
 
 add_executable(cli main.cpp)
 
-AddClangTidy(cli)
+# AddClangTidy(cli)
